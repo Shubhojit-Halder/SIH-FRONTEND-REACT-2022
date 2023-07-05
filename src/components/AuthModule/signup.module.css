@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=El+Messiri&family=Josefin+Sans:wght@100&family=Quicksand:wght@300&display=swap');
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 8.5px; */
+    height: 100vh;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1.4px;
+
+}
+.inputs_login{
+    width: 950px;
+    height: 555px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px 16px;
+    border-radius: 15px;
+}
+.input_box_container{
+    width: 630px;
+    height:530px;
+}
+.design h1{
+    padding: 5px 10px 2px 15px;
+    color: rgb(62, 62, 255);
+    letter-spacing: 1.7px;
+    /* text-align: center; */
+}
+.design h2{
+    margin-top: 5px;
+    padding: 5px 10px 2px 15px;
+    font-family: 'El Messiri', sans-serif;
+}
+.design .signupPara{
+    margin: -30px 0px 20px 3px;
+    padding: 5px 12px;
+    font-weight:lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+.signupBtnDiv{
+    padding-left: 170px;
+}
+.signupBtn{
+    /* margin-top: -5px; */
+    width:250px;
+    
+}
+
+.sidePara h1{
+    margin:50% 10px 0px 0px;
+    padding: 0px 30px;
+    color: rgba(0, 0, 0, 0.678);
+    /* background-color: aqua; */
+}
+.sidePara p{
+    margin-left: 10px;
+    padding: 10px 10px 10px 20px;
+    /* background-color: rgba(252, 113, 26, 0.801); */
+    color: rgba(7, 6, 6, 0.758);
+}
+
+@media(max-width:950px)
+{
+    .inputs_login{
+        width:680px;
+    }
+    .sidePara{
+        display: none;
+    }
+}
+@media(max-width:660px)
+{
+    .inputs_login{
+        width:400px;
+        height:750px;
+    }
+    .input_box_container{
+        width: 350px;
+        height:720px;
+    }
+    .emailPassword{
+        margin-right:17px;
+        margin-top: 12px;
+    }
+    .signupBtnDiv{
+        padding-left:10px;
+    }
+    .signupBtn{
+        width:300px;
+    }
+    .selector{
+     margin-left: 16px;
+    }
+}

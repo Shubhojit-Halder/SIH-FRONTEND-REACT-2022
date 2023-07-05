@@ -1,0 +1,2 @@
+const biodata = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore est dignissimos dolorem nisi explicabo ex autem? Aliquam dolores molestias quibusdam perferendis velit necessitatibus? Explicabo vel iusto nisi consequuntur natus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sint sed. Accusantium quos quam mollitia sint dignissimos eveniet sunt possimus."
+export default biodata;
